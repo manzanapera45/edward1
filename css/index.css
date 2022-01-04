@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todo{
+    width: 100%;
+  height: 70px;
+  background: -webkit-linear-gradient(left,rgb(35, 97, 177),rgb(2, 85, 85));
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top:0;
+    z-index: 50;
+}
+body{font-family: 'Inconsolata', monospace;}
+.EYQ span{
+color: rgb(12, 123, 197);
+
+}
+.EYQ{
+    font-size: 25px;
+    color:rgb(153, 63, 100) ;
+}
+.encavesadoTOTAL{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 18px;
+    
+}
+.menu .seccion1 a{
+color: rgb(30, 199, 72);
+font-weight: 900;
+}
+.menu li{
+    list-style: none;
+}
+.menu  a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;   
+    font-weight: 900; 
+}
+.menu a:hover{
+    background-color:rgb(35, 97, 177);
+   color:rgb(216, 250, 24);
+   transition: ease-in 0.9;
+}
+.container-portada{
+    width: 100%;
+    height: 400px;
+    background-image: url(../programador-paginaweb.jpeg);
+    background-size: 2000px;
+    animation: movimiento 10s infinite linear alternate;
+    background-color: rgb(35, 92, 92);
+    position: relative;
+    margin-top: 70px;
+    
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom right;
+    }to{background-position: top left;}
+    }
+    .capa-gradient{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: -webkit-linear-gradient(left,rgb(2, 85, 85),rgb(245, 240, 226));
+        opacity: 0.4;
+    }
+    .container-details{
+        width: 100%;
+        max-width: 1200px;
+        position: relative;
+        
+    }
+    .details{
+        width:100% ;
+        max-width: 800px;
+        position: relative;
+        top: 20px;
+        color: white;
+        left: 40px;
+        
+    }
+    .details h1{
+        font-size: 35px;
+        font-weight: 10000;
+
+    }
+    .details p{
+        margin-top: 20px;
+    }
+    .portafolio-headings{
+        width: 100%;
+        height: 100vh;
+        background: -webkit-linear-gradient(left,rgb(35, 97, 177),rgb(2, 85, 85));
+        
+    }
+    .subtitulo h2{
+        padding-top: 20px;
+        margin-left: 40px;
+        color:white;
+        font-weight: 900;
+    }
